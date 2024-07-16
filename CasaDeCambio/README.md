@@ -1,7 +1,7 @@
 
 # Casa de Câmbio
 
-![Logo Casa de Câmbio](CasaDeCambio\images\Casa-De-Cambio-ReadMe.png)
+![Logo Casa de Câmbio](./images/Casa-De-Cambio-ReadMe.png)
 
 ## Índice
 
