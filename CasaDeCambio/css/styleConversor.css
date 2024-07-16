@@ -1,0 +1,67 @@
+.containerConversao {
+  background-color: white;
+  padding:  -200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 45%;
+  max-width: 540px;
+  position: relative;
+  margin-left: 50%;
+  /* margin-top: -350px; */
+  height: 400px;
+}
+
+@media (max-width: 908px) {
+  .containerConversao {
+    margin: 20px auto; /* Centraliza horizontalmente */
+    width: 90%;
+  }
+}
+
+@media (min-width: 907.199 max-width: 1200px){
+  .containerConversao {
+    margin-left: 50%;
+    /* margin-top: -30%; */
+  }
+}
+
+.containerConversao input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.converter{
+  margin-top: -700px;
+}
+
+.converter button {
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0a1c6f;
+  
+}
+
+.converter button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.containerConversao h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #0a1c6f;
+}
